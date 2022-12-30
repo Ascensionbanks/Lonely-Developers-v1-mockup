@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+          <link rel="icon" type="image/x-icon" href="/Favicon/alien.png">
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Lonely Developers</title>
+            <link rel="stylesheet" href="./style.css">
+        </head>
+        <body>
+          <div id="page-container">
+            <div id="content-wrap">
+          <div class="tab">
+            <h1 class="title">Lonely Developers</h1>
+            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><img src="Images/Home.png" width="20" height="20"> Home</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')"><img src="Images/Lock.png" width="20" height="20"> Account</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')"><img src="Images/cart.png" width="20" height="20">Shop</button>
+          </div>
+          
+          <div id="London" class="tabcontent">
+            <h2>Lonely Developers</h2>
+            <p>A place to,</p>
+              <div class="thingsTo">
+                <div class="talk"><img src="ThingsTo/Chat.png"><h6>Talk To People</h6></div>
+                <div class="friends"><img src="ThingsTo/Friend.png"><h6>Make Friends</h6></div>
+                <div class="account"><img src="Images/Lock.png"><h6>Make a cool profile</h6></div>
+              </div>
+          </div>
+
+          <div id="Paris" class="tabcontent">
+            <h3>Account</h3>
+            <p>Here you can view your account.</p> 
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h3>Shop</h3>
+            <p>Lonely Devs is free but feel free to support us. </p>
+          </div>
+          </div>
+          <footer id="footer">
+            <button onclick="Darkmode()">Toggle dark mode</button>
+            <a href="#" class="fa fa-linkedin"></a>
+            <div class="callout">
+              <div class="callout-header">Welcome!</div>
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+              <div class="callout-container">
+                <p>Thank you so much for joining lonely developers we love to have you!<br><a href="#">welcome video</a></p>
+              </div>
+            </div>
+          </footer>
+          </div>
+          <script  src="./script.js"></script>
+        </body>
+    </html>

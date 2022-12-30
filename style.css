@@ -1,0 +1,183 @@
+body {
+	font-family: Impact, Helvetica,;
+  text-align: center;
+  background-color: #2C3333;
+  margin: 20px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #A5C9CA;
+  border-radius: 10px 10px 0px 0px; 
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 25px 16px;
+  transition: 0.3s;
+  font-size: 19px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #5f9ea0;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #7d9a9b;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  background-color: #cbe8e0;
+  border: 1px solid rgb(171, 171, 171);
+  font-family: helvetica;
+  border-top: none;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px; 
+}
+
+.title {
+  color: #395B64;
+  width: 500px;
+  float: left;
+  font-family: helvetica;
+  letter-spacing: 5px;
+}
+
+.thingsTo {
+  background-color: #A5C9CA;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.talk {
+  float: right;
+  padding-right: 400px;
+}
+
+.friends {
+  float: left;
+  padding-left: 400px;
+}
+
+.accounts {
+  float: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 120vh;
+}
+
+#content-wrap {
+  padding-bottom: 5.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5.5rem;            /* Footer height */
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+footer {
+  background-color: lightblue;
+  display: block;
+}
+
+/* Callout box - fixed position at the bottom of the page */
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+/* Callout header */
+.callout-header {
+  border-radius: 10px 10px 0px 0px; 
+  padding: 25px 15px;
+  background: #cbe8e0;
+  font-size: 30px;
+  color: rgb(7, 41, 50);
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid white;
+}
+
+/* Callout container/body */
+.callout-container {
+  border-radius: 0px 0px 10px 10px; 
+  padding: 15px;
+  background-color: lightblue;
+  color: black;
+  border: 1px solid white;
+}
+
+/* Close button */
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+/* Change color on mouse-over */
+.closebtn:hover {
+  color: lightgrey;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lightblue; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkblue; 
+}
