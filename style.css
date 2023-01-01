@@ -51,8 +51,11 @@ body {
 
 .title {
   color: #395B64;
-  width: 400px;
   float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
 }
 
 .thingsTo {
@@ -182,3 +185,5 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: darkblue; 
 }
+
+/* sticky cum */
