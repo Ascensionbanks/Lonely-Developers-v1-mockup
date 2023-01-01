@@ -1,5 +1,5 @@
 body {
-	font-family: Impact, Helvetica,;
+  font-family: Impact, Helvetica,;
   text-align: center;
   background-color: #2C3333;
   margin: 20px;
@@ -185,5 +185,3 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: darkblue; 
 }
-
-/* sticky cum */
