@@ -236,3 +236,8 @@ footer {
   width: 100%;
   font-size: 18px;
 }
+
+.price {
+  color: red;
+  font-size: 22px;
+}
