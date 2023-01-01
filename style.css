@@ -23,6 +23,9 @@ body {
   padding: 25px 16px;
   transition: 0.3s;
   font-size: 19px;
+  height: 165px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* Change background color of buttons on hover */
@@ -48,10 +51,8 @@ body {
 
 .title {
   color: #395B64;
-  width: 500px;
+  width: 400px;
   float: left;
-  font-family: helvetica;
-  letter-spacing: 5px;
 }
 
 .thingsTo {

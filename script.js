@@ -19,3 +19,11 @@ function Darkmode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+function signup() {
+	
+}
+
+function login() {
+	
+}
