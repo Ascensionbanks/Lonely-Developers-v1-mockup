@@ -229,8 +229,8 @@ footer {
   border: none;
   outline: 0;
   padding: 12px;
-  color: white;
-  background-color: #000;
+  color: rgb(176, 189, 248);
+  background-color: rgb(65, 81, 160);
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -238,6 +238,6 @@ footer {
 }
 
 .price {
-  color: red;
+  color: #001823;
   font-size: 22px;
 }

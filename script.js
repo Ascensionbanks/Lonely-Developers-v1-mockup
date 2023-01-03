@@ -27,3 +27,11 @@ function signup() {
 function login() {
 	
 }
+
+function buyone() {
+
+}
+
+function buyfive() {
+  
+}
