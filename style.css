@@ -225,6 +225,7 @@ footer {
 
 #Tokyo {
   padding-bottom: 1000px;
+  filter: blur(50px);
 }
 
 .card button {
