@@ -3,6 +3,7 @@ body {
   text-align: center;
   background-color: #2C3333;
   margin: 20px;
+  overflow-x: hidden;
 }
 
 /* Style the tab */
