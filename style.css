@@ -224,8 +224,7 @@ footer {
 }
 
 #Tokyo {
-  padding-bottom: 1000px;
-  filter: blur(8px);
+  padding-bottom: 800px;
 }
 
 .card button {
@@ -243,4 +242,8 @@ footer {
 .price {
   color: #001823;
   font-size: 22px;
+}
+
+.comingsoon {
+  float: left;
 }
